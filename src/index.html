@@ -3,11 +3,64 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <title>Eco Cosmitics</title>
     <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
   </head>
-  <body>
-    <h1>Hello Mate Academy</h1>
+  <body class="page">
+    <header class="header">
+      <div class="header__wrapper-content">
+        <section class="header__section">
+          <div class="header__burger">
+            <a href="#menu">
+              <img src="/images/mobile/burger-mini.png" alt="Burger">
+            </a>
+          </div>
+          <div class="header__logo">
+            <a href="#">
+              <img src="/images/favicon.png" class="header__main-logo" alt="logo">
+            </a>
+            <a href="#" class="header__logo-text">
+              witch of mountain winds
+            </a>
+          </div>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#shop" class="nav__link">Shop</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contact" class="nav__link">Contact</a>
+              </li>
+              <li class="nav__item">
+                <a href="#about" class="nav__link">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__cart">
+            <a href="#" class="header__cart-link">
+              <img src="/images/cart.png" class="header__cart-mobile" alt="cart">
+            </a>
+          </div>
+        </section>
+
+        <section class="header__brand">
+          <div class="header__main-col-1">
+            <h1 class="header__title">Brand of eco-cosmetics and magic candles</h1>
+            <p class="header__sale-text">20% of sales at a wild bird shelter</p>
+            <div class="header__shop-button">
+              <a href="#" class="header__shop-text">
+                Shop
+              </a>
+            </div>
+          </div>
+          <div class="header__main-col-2">
+            <img src="/images/mainImage.png" class="header__main-image" alt="Main Image">
+          </div>
+        </section>
+      </div>
+    </header>
+
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
