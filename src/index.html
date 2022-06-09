@@ -79,7 +79,7 @@
       </div>
     </section>
 
-    <div class="main">
+    <main class="main">
       <div class="main__about-brand" id="about">
         <div class="main__col-1">
           <div class="main__side-line"></div>
@@ -270,7 +270,87 @@
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="main__contact-help" id="contact">
+        <div class="main__contact-wrapper">
+          <div class="main__contact-side-line"></div>
+          <p class="main__contact-rotated-text">help</p>
+
+          <div class="main__contact-col-1">
+            <h3 class="main__contact-title">Contact us</h3>
+            <p class="main__contact-text">
+              We will help you choose a product that suits
+              you and answer your other questions
+            </p>
+
+            <form action="/" method="post" onsubmit="event.preventDefault()">
+              <input type="text" class="contact__name" placeholder="Your Name" required>
+              <input type="email" class="contact__email" placeholder="E-Mail">
+              <input type="tel" class="contact__number" placeholder="Phone Number" required>
+              <textarea rows="1" minlength="10" class="contact__message" placeholder="Your Message"></textarea>
+
+              <button type="submit" class="main__contact-button">
+                send a message
+              </button>
+            </form>
+          </div>
+          <div class="main__contact-col-2">
+            <div class="main__contact-image"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content-wrapper">
+        <div class="footer__col-1">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Shop
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  Contact
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  About
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="footer__text">
+            <p class="footer__copyright">Copyright</p>
+            <p class="footer__title">&copy; 2019 witch of mountain winds</p>
+          </div>
+        </div>
+        <div class="footer__col-2">
+          <a href="https://yandex.ru/maps/187/ukraine/?l=sat%2Cskl&ll=31.482771%2C49.027530&z=6" class="country"
+            target="_blank">
+            Ukraine
+          </a>
+          <a href="mailto:support.mountain@gmail.com" class="support">
+            support.mountain@gmail.com
+          </a>
+          <a href="tel:+380934476839" class="phone__number">
+            +380934476839
+          </a>
+          <p class="support__info">Support is available Monday - Friday 9am-6pm</p>
+          <div class="footer__social-link">
+            <a href="https://facebook.com/" class="social__link-facebook">
+              <img src="/images/facebook.png" class="footer__facebook" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/" class="social__link-instagram">
+              <img src="/images/instagram.png" class="footer__instagram" alt="Instagram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
